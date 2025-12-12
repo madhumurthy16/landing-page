@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+header, .homepage-header {
+    background-color: #1F2937;
+    padding: 20px 80px;
+};
+
+header .navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.homepage-header {
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.homepage-hero img {
+    width: 700px;
+    max-width: 100%;
+}
+
+.homepage-tours {
+    padding: 20px 80px;
+    text-align: center;
+}
+
+.tour-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+
+
+.tour-item img {
+    width: 600px;
+    max-width: 100%;
+
+}
+
+.homepage-testimonial {
+    background-color: #E5E7EB;
+    padding: 40px 80px;
+    text-align: center;
+}
+
+.homepage-contact {
+    padding: 20px 80px;
+    
+}
+
+.homepage-contact .contact {
+    display: flex;
+    justify-content: space-between;;
+    padding: 30px;
+    background-color: #3882F6;
+    color: #ffffff;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 80px;
+}
+
+
+
