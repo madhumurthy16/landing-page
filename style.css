@@ -9,6 +9,11 @@ body {
     font-size: 18px;
     background-color: #ffffff;
     color: #1F2937;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    -webkit-font-feature-settings: "liga" on;
+    -moz-font-feature-settings: "liga" on;
 }
 
 .padding-standard {
