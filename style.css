@@ -66,17 +66,24 @@ a {
 
 .btn {
     font-size: 16px;
+    font-weight: 600;
     padding: 0.5rem 1rem;
     border: none;
     border-radius: 8px;
     cursor: pointer;
     text-decoration: none;
     display: inline-block;
+
 }
 
 .btn-primary {
     background-color: #3882F6;
     color: #ffffff;
+    
+}
+
+.btn-primary:hover {
+    background-color: #256EDC;
 }
 
 .btn-secondary {
@@ -85,11 +92,21 @@ a {
     border: 2px solid #3882F6;
 }
 
-.btn-contact {
-    background-color: transparent;
+.btn-secondary:hover {
+    background-color: #3882F6;
     color: #ffffff;
+}
+
+.btn-contact {
+    background-color: #ffffff;
+    color: #3882F6;
     border: 2px solid #ffffff;
     width: fit-content;
+}
+
+.btn-contact:hover {
+    background-color: #3882F6;
+    color: #ffffff;
 }
 
 header, .homepage-header {
