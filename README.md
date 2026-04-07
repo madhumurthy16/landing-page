@@ -6,5 +6,6 @@ Developed as part of The Odin Project’s Web Development curriculum to reinforc
 
 ## Technology used: 
 HTML, CSS - Flexbox, Responsive typography, Mobile first design.
+Hosted on GitHub Pages.
 
 
